@@ -2,3 +2,6 @@ baseURL = '/'
 languageCode = 'en-us'
 title = 'Test Hugo Site'
 theme = 'terminal'
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
